@@ -31,11 +31,21 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 ```
 
-3. Install the required dependencies:
+5. Install the required dependencies:
 
 ```sh
 pip install -r requirements.txt
 ```
+6. First make sure your pip version is up to date:
+
+```sh
+pip3 install -U pip
+```
+7. Install Rasa Open Source:
+```sh
+pip install rasa
+```
+
 
 
 ## License
