@@ -20,7 +20,7 @@ stories:
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
+      amazing!
     intent: mood_great
   - action: utter_happy
   - user: |
